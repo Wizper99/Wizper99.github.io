@@ -1,11 +1,15 @@
 <html>
 <head> 
-<title>Contact</title>
+<title>HomePage</title>
 
 <style>
 body{
-background-image:url("Sources/images/Wall1.jpg")
-
+background-image:url("Sources/images/Wall1.png");
+background-color: black;
+background-size: cover; 
+background-repeat:no-repeat;
+background-position: center;
+background-attachment: fixed;
 }
 
 table{
@@ -17,24 +21,28 @@ font-family:arial;
 div#Big{
 	width  : 1000px;
 	height : 600px
-	margin : auto;
-	padding: 10px;
+	margin : 0px;
+	padding-top: 0px;
+	margin-right:100px;
 }
 
 div#one {
     width  : 150px;
     height : auto;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.5);
     float : left;
-	font-family: Arial black;
+	font-family: Rockwell;
 	font-color:black;
+	position:fixed;
+	
 	}
 
 div#two{
-	width  : 800px;
+	width  : 880px;
 	height : 800px;
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,0.6);
 	margin-left: 160px; 
+	margin-bottom:250px
 	}
 
 .navmenu{
@@ -50,6 +58,28 @@ a{
 	color: black;
 }
 
+img#one{
+margin-top:auto;
+}
+
+img#two{
+padding:50px;
+}
+
+
+
+
+h1{
+font-size:550%;
+padding:50px;
+font-family:arial;
+}
+
+p{
+font-size:30;
+text-align:center;
+font-family:Ebrima;
+}
 
 </style>
 
@@ -57,17 +87,40 @@ a{
 
 </head>
 
-<body><center><br><br><br><br>
-<div id="Big">
-	<div id="one">
-	<a href=""><div class="navmenu">HOME</div></a>
-	<a href=""><div class="navmenu">CONTACT</div></a>
-	<a href=""><div class="navmenu">ABOUT</div></a>
-	<a href=""><div class="navmenu">SPORTS</div></a>
-	<a href=""><div class="navmenu">EDUCATION</div></a>
+<body><center>
+
+<img src="sources/images/logo.png" id="one"><br>
+<div id="Big"> 
+	<div id="one"><b>
+	<a href="index.html"><div class="navmenu">HOME</div></a>
+	<a href="contact.html"><div class="navmenu">CONTACT</div></a>
+	<a href="about.html"><div class="navmenu">ABOUT</div></a>
+	<a href="sports.html"><div class="navmenu">SPORTS</div></a>
+	<a href="gallery.html"><div class="navmenu">GALLERY</div></a>
+	<a href="education.html"><div class="navmenu">EDUCATION</div></a></b>
 	</div>
 		<div id="two">
+		<center>
+		<br><br><br><br>
+		<img src="sources/images/profile.jpg" id="two"><br>
+
+	<p><b>E-mail   </b> : kpmssperera@gmail.com</p>
+	<p><b>Mobile   </b> :           0765694782</p>
+	<p><b>Facebook </b> : Savio Perera   </p>
+	<p><b>Twitter  </b> : Savio Perera</p>
+	<p><b>Instagram</b> : Savio Perera</p>
+	<img src="sources/images/contacticons.png" id="three"><br>
+
+
+</CENTER>
+		
+		
+		
+		
+		
+		</center>
 		</div>
+</div>		
 	
 
 
