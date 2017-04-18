@@ -32,7 +32,7 @@ div#one {
 	margin-left : 50px;
     background: rgba(255,255,255,0.2);
     float : left;
-	font-family: Rockwell;
+	font-family:Calibri Light;
 	font-color:white;
 	font-size : 20;
 	position:fixed;
@@ -85,7 +85,9 @@ img#two{
 padding:50px;
 }
 
-
+map {
+    display: inline;
+}
 
 
 
@@ -98,7 +100,7 @@ padding:50px;
 <body><center>
 
 
-<div id="Big"> <img src="sources/images/logo.png" id="one"><br>
+<div id="Big"> <img src="sources/images/logo.png" id="one" draggable="false"><br>
 	<div id="one">
 	<a href="index.html"><div class="navmenu">HOME</div></a>
 	<a href="contact.html"><div class="navmenu">CONTACT</div></a>
@@ -110,7 +112,7 @@ padding:50px;
 		<div id="two">
 		<center>
 		<br><br><br><br>
-		<img src="sources/images/profile.jpg" id="two"><br>
+		<img src="sources/images/profile.jpg" id="two" draggable="false"><br>
 </CENTER>
 		<div id="three">
 		
@@ -124,7 +126,10 @@ padding:50px;
 		
 
 	<br>
-	<img src="sources/images/contacticons.png" id="three"><br>
+	<img src="sources/images/contacticons.png" id="three" usemap="#facebook" draggable="false"><br>
+<map name ="facebook">
+	<area shape="circle" coords="5,5,10" href="www.facebook.com">
+	</map>
 
 
 
