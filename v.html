@@ -1,0 +1,109 @@
+<html>
+<head><title>Sing up</title>
+<script>
+function validate()
+{
+var username,password,x,atpos,dotpos;
+x=document.frmuser.txtemail.value;
+atpos=x.indexOf("@");
+dotpos=x.lastIndexOf(".");
+username=document.frmuser.txtusername.value;
+password=document.frmuser.txtpassword.value;
+ if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+	{
+        alert("Not a valid e-mail address");
+        return false;
+ }
+if(username==""||password=="")	
+{
+alert("please enter the valid username and password");
+return false;
+}
+if (!/^[a-zA-Z]*$/(document.frmuser.txtusername.value)) {
+        alert("Invalid characters");
+        return false;
+    }
+}
+var limit=
+</script>
+<style>
+body{
+background-repeat:no-repeat;
+}
+font{
+color:#100580;
+font-family:calibri;
+}
+
+div#big
+{
+width:1050px;
+height:auto;
+background-color:black;
+margin:180px;
+
+}
+
+div#one
+{
+width:500px;
+height:400px;
+background-color:rgba(255,255,255,0.7);
+padding-left:50px;
+padding-top:50px;
+float:left;
+}
+div#two
+{
+width:120px;
+height:auto;
+background-color:;
+float:left;
+font-family:Calibri;
+line-height:25px
+}
+div#three
+{
+background-color:;
+margin-top:100px;
+margin-left:100px;
+}
+
+div#four
+{
+width:500px;
+height:450px;
+background-color:rgba(255,255,255,0.5);
+float:right;
+}
+
+h1{
+font-size:35;
+}
+input{
+height:25;
+}
+</style>
+</head>
+
+<body background="sources/images/bg.jpg" width="50%"><font><div id="big">
+<div id="one"><h1>Sign up</h1>
+<form name="frmuser" method="post" onsubmit="return validate()" action="b.html">
+<div id="two">E-mail<br> First Name<br>Last Name<br>Password <br>Birthday</div>
+<div id="three">
+<input type="textbox" name="txtemail" placeholder="example@example.com"><br>
+<input name="txtfirstname" type="textbox" pattern="[A-Za-z\\s]*" size="10" placeholder="ex:-Savio"><br>
+<input name="txtlastname" type="textbox" pattern="[A-Za-z\\s]*" size="7" placeholder="ex:-Perera"><br>
+<input type="password" name="txtpassword" pattern="[A-Za-z0-9\\s]*"  placeholder="No symbols"><br>
+<input type="textbox" name="txtyear" size="3" placeholder="Year" pattern="[0-9]{4}">-
+<input type="textbox" name="txtmonth" size="2"placeholder="Month" pattern="[0-9]{2}">
+</select>-
+<input type="textbox" name="txtday" size="1" placeholder="Day" min="01" max="31" pattern="[0-9]{2}"><br><br>
+</div><input type="submit" value="Sing up">
+</div></form></font>
+<div id="four">
+<img src="sources/images/1.png" style="padding-top:25px;" >
+</div>
+</div>
+</body>
+</html>
