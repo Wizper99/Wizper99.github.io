@@ -3,21 +3,34 @@
 <script>
 function validate()
 {
-var firstname,lastname,password,x,atpos,dotpos;
+var firstname,lastname,password,x,atpos,dotpos,y,m,d;
 x=document.frmuser.txtemail.value;
 atpos=x.indexOf("@");
 dotpos=x.lastIndexOf(".");
 firstname=document.frmuser.txtfirstname.value;
 lastname=document.frmuser.txtlastname.value;
 password=document.frmuser.txtpassword.value;
+y=document.frmuser.txtyear.value;
+m=document.frmuser.txtmonth.value;
+d=document.frmuser.txtday.value;
  if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
 	{
-        alert("Not a valid e-mail address");
+        document.getElementById("err").textContent = "*Not a valid e-mail address";
         return false;
  }
-if(firstname==""||lastname==""||password=="")	
+if(firstname==""||lastname=="")	
 {
-alert("please enter the valid username and password");
+document.getElementById("err").textContent=("*Please enter First and Last names");
+return false;
+}
+if(password=="")	
+{
+document.getElementById("err").textContent=("*Please enter a Password");
+return false;
+}
+if(y==""||m==""||d=="")	
+{
+document.getElementById("err").textContent=("*Please enter correct Birthday");
 return false;
 }
 }
@@ -109,6 +122,9 @@ background-color: #4C8F45;
 label{
 margin-left:85px;
 }
+span#err{
+color:red;
+}
 </style>
 </head>
 <body background="sources/images/bg.jpg" width="50%"><font><div id="big">
@@ -120,12 +136,13 @@ E-mail<br><input type="textbox" name="txtemail" placeholder="example@example.com
 First Name  <label>Last Name</label><br>
 <input name="txtfirstname" type="textbox" pattern="[A-Za-z\\s]*" size="16" placeholder="Your First Name..">
 <input name="txtlastname" type="textbox" pattern="[A-Za-z\\s]*" size="17" placeholder="Your Last Name.."><br>
-Password<br><input type="password" name="txtpassword" pattern="[A-Za-z0-9\\s]*"  placeholder="No symbols" size="40"><br>
-Birthday<br><input type="textbox" name="txtyear" size="3" placeholder="Year" pattern="[0-9]{4}">-
-<input type="textbox" name="txtmonth" size="2"placeholder="Month" pattern="[0-9]{2}">
-</select>-
-<input type="textbox" name="txtday" size="1" placeholder="Day"  pattern="[0-9]{2}"><br><br>
+Password<br><input type="password" name="txtpassword" pattern="[A-Za-z0-9]*"  placeholder="Add a Password" size="40"><br>
+Birthday<br>
+<input type="number" min="1900" max="2017" name="txtyear"  placeholder="Year(xxxx)" > -
+<input type="number" min="1" max="12"name="txtmonth" placeholder="Month(xx)" > -
+<input type="number" min="1" max="31" name="txtday"  placeholder="Day(xx)"  ><br><br>
 <input type="submit" value="Sign up"></div>
+<br><span id="err"></span>
 </div></form></font>
 <div id="four">
 <img src="sources/images/robot.gif"  width="450px" height="450px">
