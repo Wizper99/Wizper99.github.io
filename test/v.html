@@ -33,6 +33,11 @@ if(y==""||m==""||d=="")
 document.getElementById("err").textContent=("*Please enter correct Birthday");
 return false;
 }
+if(m=2 && d>29)
+{
+document.getElementById("err").textContent=("*enter correct date");
+return false;
+}
 }
 
 </script>
