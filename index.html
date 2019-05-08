@@ -16,14 +16,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <title>Home</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=509881629" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=373709799"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=520144255" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
     <!--HTML Widget code-->
   
+<style>
+.ghost,.glitch {opacity: 0.25;}
+</style>
+    
+<script>
+!function(){function e(e,r){return[].slice.call((r||document).querySelectorAll(e))}if(window.addEventListener){var r=window.StyleFix={link:function(e){try{if("stylesheet"!==e.rel||e.hasAttribute("data-noprefix"))return}catch(t){return}var n,i=e.href||e.getAttribute("data-href"),a=i.replace(/[^\/]+$/,""),o=(/^[a-z]{3,10}:/.exec(a)||[""])[0],s=(/^[a-z]{3,10}:\/\/[^\/]+/.exec(a)||[""])[0],l=/^([^?]*)\??/.exec(i)[1],u=e.parentNode,p=new XMLHttpRequest;p.onreadystatechange=function(){4===p.readyState&&n()},n=function(){var t=p.responseText;if(t&&e.parentNode&&(!p.status||p.status<400||p.status>600)){if(t=r.fix(t,!0,e),a){t=t.replace(/url\(\s*?((?:"|')?)(.+?)\1\s*?\)/gi,function(e,r,t){return/^([a-z]{3,10}:|#)/i.test(t)?e:/^\/\//.test(t)?'url("'+o+t+'")':/^\//.test(t)?'url("'+s+t+'")':/^\?/.test(t)?'url("'+l+t+'")':'url("'+a+t+'")'});var n=a.replace(/([\\\^\$*+[\]?{}.=!:(|)])/g,"\\$1");t=t.replace(RegExp("\\b(behavior:\\s*?url\\('?\"?)"+n,"gi"),"$1")}var i=document.createElement("style");i.textContent=t,i.media=e.media,i.disabled=e.disabled,i.setAttribute("data-href",e.getAttribute("href")),u.insertBefore(i,e),u.removeChild(e),i.media=e.media}};try{p.open("GET",i),p.send(null)}catch(t){"undefined"!=typeof XDomainRequest&&(p=new XDomainRequest,p.onerror=p.onprogress=function(){},p.onload=n,p.open("GET",i),p.send(null))}e.setAttribute("data-inprogress","")},styleElement:function(e){if(!e.hasAttribute("data-noprefix")){var t=e.disabled;e.textContent=r.fix(e.textContent,!0,e),e.disabled=t}},styleAttribute:function(e){var t=e.getAttribute("style");t=r.fix(t,!1,e),e.setAttribute("style",t)},process:function(){e("style").forEach(StyleFix.styleElement),e("[style]").forEach(StyleFix.styleAttribute)},register:function(e,t){(r.fixers=r.fixers||[]).splice(void 0===t?r.fixers.length:t,0,e)},fix:function(e,t,n){for(var i=0;i<r.fixers.length;i++)e=r.fixers[i](e,t,n)||e;return e},camelCase:function(e){return e.replace(/-([a-z])/g,function(e,r){return r.toUpperCase()}).replace("-","")},deCamelCase:function(e){return e.replace(/[A-Z]/g,function(e){return"-"+e.toLowerCase()})}};!function(){setTimeout(function(){},10),document.addEventListener("DOMContentLoaded",StyleFix.process,!1)}()}}(),function(e){function r(e,r,n,i,a){if(e=t[e],e.length){var o=RegExp(r+"("+e.join("|")+")"+n,"gi");a=a.replace(o,i)}return a}if(window.StyleFix&&window.getComputedStyle){var t=window.PrefixFree={prefixCSS:function(e,n){var i=t.prefix;if(t.functions.indexOf("linear-gradient")>-1&&(e=e.replace(/(\s|:|,)(repeating-)?linear-gradient\(\s*(-?\d*\.?\d*)deg/gi,function(e,r,t,n){return r+(t||"")+"linear-gradient("+(90-n)+"deg"})),e=r("functions","(\\s|:|,)","\\s*\\(","$1"+i+"$2(",e),e=r("keywords","(\\s|:)","(\\s|;|\\}|$)","$1"+i+"$2$3",e),e=r("properties","(^|\\{|\\s|;)","\\s*:","$1"+i+"$2:",e),t.properties.length){var a=RegExp("\\b("+t.properties.join("|")+")(?!:)","gi");e=r("valueProperties","\\b",":(.+?);",function(e){return e.replace(a,i+"$1")},e)}return n&&(e=r("selectors","","\\b",t.prefixSelector,e),e=r("atrules","@","\\b","@"+i+"$1",e)),e=e.replace(RegExp("-"+i,"g"),"-"),e=e.replace(/-\*-(?=[a-z]+)/gi,t.prefix)},property:function(e){return(t.properties.indexOf(e)?t.prefix:"")+e},value:function(e){return e=r("functions","(^|\\s|,)","\\s*\\(","$1"+t.prefix+"$2(",e),e=r("keywords","(^|\\s)","(\\s|$)","$1"+t.prefix+"$2$3",e)},prefixSelector:function(e){return e.replace(/^:{1,2}/,function(e){return e+t.prefix})},prefixProperty:function(e,r){var n=t.prefix+e;return r?StyleFix.camelCase(n):n}};!function(){var e={},r=[],n=getComputedStyle(document.documentElement,null),i=document.createElement("div").style,a=function(t){if("-"===t.charAt(0)){r.push(t);var n=t.split("-"),i=n[1];for(e[i]=++e[i]||1;n.length>3;){n.pop();var a=n.join("-");o(a)&&-1===r.indexOf(a)&&r.push(a)}}},o=function(e){return StyleFix.camelCase(e)in i};if(n.length>0)for(var s=0;s<n.length;s++)a(n[s]);else for(var l in n)a(StyleFix.deCamelCase(l));var u={uses:0};for(var p in e){var f=e[p];u.uses<f&&(u={prefix:p,uses:f})}t.prefix="-"+u.prefix+"-",t.Prefix=StyleFix.camelCase(t.prefix),t.properties=[];for(var s=0;s<r.length;s++){var l=r[s];if(0===l.indexOf(t.prefix)){var c=l.slice(t.prefix.length);o(c)||t.properties.push(c)}}"Ms"!=t.Prefix||"transform"in i||"MsTransform"in i||!("msTransform"in i)||t.properties.push("transform","transform-origin"),t.properties.sort()}(),function(){function e(e,r){return i[r]="",i[r]=e,!!i[r]}var r={"linear-gradient":{property:"backgroundImage",params:"red, teal"},calc:{property:"width",params:"1px + 5%"},element:{property:"backgroundImage",params:"#foo"},"cross-fade":{property:"backgroundImage",params:"url(a.png), url(b.png), 50%"}};r["repeating-linear-gradient"]=r["repeating-radial-gradient"]=r["radial-gradient"]=r["linear-gradient"];var n={initial:"color","zoom-in":"cursor","zoom-out":"cursor",box:"display",flexbox:"display","inline-flexbox":"display",flex:"display","inline-flex":"display",grid:"display","inline-grid":"display","min-content":"width"};t.functions=[],t.keywords=[];var i=document.createElement("div").style;for(var a in r){var o=r[a],s=o.property,l=a+"("+o.params+")";!e(l,s)&&e(t.prefix+l,s)&&t.functions.push(a)}for(var u in n){var s=n[u];!e(u,s)&&e(t.prefix+u,s)&&t.keywords.push(u)}}(),function(){function r(e){return a.textContent=e+"{}",!!a.sheet.cssRules.length}var n={":read-only":null,":read-write":null,":any-link":null,"::selection":null},i={keyframes:"name",viewport:null,document:'regexp(".")'};t.selectors=[],t.atrules=[];var a=e.appendChild(document.createElement("style"));for(var o in n){var s=o+(n[o]?"("+n[o]+")":"");!r(s)&&r(t.prefixSelector(s))&&t.selectors.push(o)}for(var l in i){var s=l+" "+(i[l]||"");!r("@"+s)&&r("@"+t.prefix+s)&&t.atrules.push(l)}e.removeChild(a)}(),t.valueProperties=["transition","transition-property"],e.className+=" "+t.prefix,StyleFix.register(t.prefixCSS)}}(document.documentElement);
+</script>
+
 	<style>
 	.particle {width: 100%px; height: 1989px;}
 	</style>
@@ -33,13 +41,22 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body class="always_vert_scroll">
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu1410-8"><!-- group -->
-    <div id="u1410-8-wrapper">
-     <img id="u1410-8" alt="define your company." src="images/u1410-8.png?crc=3885337949" data-image-width="699"/><!-- rasterized frame -->
-    </div>
-    <div class="browser_width" id="u1645-bw">
-     <div id="u1645"><!-- simple frame --></div>
-    </div>
+   <div class="browser_width" id="u1645-bw">
+    <div id="u1645"><!-- simple frame --></div>
+   </div>
+   <div class="size_fixed grpelem" id="u4022" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+    
+<div class="u4022">
+  <div class="message">
+  </div>
+</div>
+
+   </div>
+   <div class="clearfix grpelem" id="phome"><!-- group -->
+    <a class="anchor_item grpelem" id="home" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+    <a class="anchor_item grpelem" id="home2" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+   </div>
+   <div class="clearfix grpelem" id="pmenuu2033"><!-- group -->
     <div id="menuu2033-wrapper">
      <nav class="MenuBar clearfix" id="menuu2033"><!-- horizontal box -->
       <div class="MenuItemContainer clearfix grpelem" id="u2041"><!-- vertical box -->
@@ -76,11 +93,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </nav>
     </div>
    </div>
-   <div class="clearfix grpelem" id="phome"><!-- group -->
-    <a class="anchor_item grpelem" id="home" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-    <a class="anchor_item grpelem" id="home2" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-   </div>
-   <div class="verticalspacer" data-offset-top="18" data-content-above-spacer="441" data-content-below-spacer="1548" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="413" data-content-above-spacer="413" data-content-below-spacer="1548" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="clearfix grpelem" id="pu3387"><!-- group -->
     <div class="browser_width grpelem" id="u3387-bw">
      <div class="size_browser_width" id="u3387"><!-- custom html -->
@@ -180,6 +193,8 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
+        <script>
+(function(){var t,e,a,n,r,l,o,u;r=[],r.push({delay:0,text:"Define"}),r.push({delay:1200,text:"Your"}),r.push({delay:2200,text:"Company"}),r.push({delay:3600,text:""}),r.push({delay:5200,text:""}),e=$(".u4022"),a=$(".message"),t=$("#animate"),n=null,u=function(t,e,a){var n,r,l,o,u,i,h,s,p,f,d,c,x,m,g,y,v,b,T,_,B,M,k,I,j,D,O,Q,U,q,w;for(o={probability:.2,glitches:"-|/\\",blank:"",duration:40*e.length,ease:"easeInOutQuad",delay:0},n=$(t),D=$.extend(o,a),O=function(){return Math.random()<.5?1:-1},w=function(t,e){return'<span class="'+e+'">'+t+"</span>"},g=D.glitches,d=g.split(""),x=d.length,m=D.probability,y=function(){var t,e,a;for(a=[],t=0,e=d.length;e>t;t++)T=d[t],a.push(w(T,"glitch"));return a}(),s=n.text(),i=s.split(""),h=i.length,p=function(){var t,e,a;for(a=[],t=0,e=i.length;e>t;t++)T=i[t],a.push(w(T,"ghost"));return a}(),U=e.split(""),q=U.length,B=function(){j=[];for(var t=0;q>=0?q>t:t>q;q>=0?t++:t--)j.push(t);return j}.apply(this).sort(this.shuffle),M=[],v=b=0,I=q;I>=0?I>b:b>I;v=I>=0?++b:--b)c=Math.floor(Math.random()*(x-1)),f=y[c],u=p[v]||D.blank,r=Math.random()<m,l=r?f:u,M.push(l);return _={value:0},Q={value:1},k={duration:D.duration,ease:D.ease,step:function(){var t,e,a,r;for(a=Math.floor(_.value*(q-1)),v=e=0,r=a;r>=0?r>=e:e>=r;v=r>=0?++e:--e)t=B[v],M[t]=U[t];return n.html(M.join(""))},complete:function(){return n.html(e)}},$(_).delay(D.delay).animate(Q,k)},l=function(){var t,e,a,l,o,i;for(a=l=0,o=r.length;o>l;a=++l)t=r[a],e=n.get(a),e.innerText="",i={delay:t.delay},u(e,t.text,i)},(o=function(){var o,u,i,h;for(t.click(l),o=u=0,i=r.length;i>u;o=++u)h=r[o],a.append("<p>");n=e.find("p"),l()})()}).call(this);        </script>
 		<script>
 	$(function(){
 		$(".particle").jParticle({
