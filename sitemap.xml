@@ -2,23 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://getdesignthinking.com/index.html</loc>
-    <lastmod>2019-05-08</lastmod>
+    <lastmod>2019-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/vnseeatt9w4-sven-scheuermeier.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/header.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/adventure-alpine-alps-427676.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/wall.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/architecture-budapest-building-696288.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/icons8-quote-96.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/picture-frames-1149414_1920.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/profile-crop-u7945.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/s.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/mattbrowncropped-20190313101509325-crop-u7957.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://getdesignthinking.com/images/images%20(2)-crop-u7939.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -27,24 +30,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/default_wallpaper.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/default_wallpaper.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://getdesignthinking.com/services.html</loc>
-    <lastmod>2019-05-08</lastmod>
+    <lastmod>2019-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://getdesignthinking.com/contact-us.html</loc>
-    <lastmod>2019-05-07</lastmod>
+    <lastmod>2019-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://getdesignthinking.com/images/email-marketing-2362038_1280-crop-u7663.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://getdesignthinking.com/about-us.html</loc>
-    <lastmod>2019-05-07</lastmod>
+    <lastmod>2019-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -57,7 +63,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/default_wallpaper.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/default_wallpaper.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -66,7 +72,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/default_wallpaper.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/default_wallpaper.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -75,7 +81,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/default_wallpaper.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/default_wallpaper.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -84,7 +90,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/default_wallpaper.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/default_wallpaper.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -93,7 +99,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://getdesignthinking.com/images/default_wallpaper.jpg</image:loc>
+      <image:loc>http://getdesignthinking.com/images/default_wallpaper.png</image:loc>
     </image:image>
   </url>
   <url>

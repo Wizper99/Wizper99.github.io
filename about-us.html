@@ -16,8 +16,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <title>About us</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/about-us.css?crc=3928390890" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=266610724"/>
+  <link rel="stylesheet" type="text/css" href="css/about-us.css?crc=4139150565" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -25,7 +25,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <!--HTML Widget code-->
   
 	<style>
-	.particle {width: 100%px; height: 932px;}
+	.particle {width: 100%px; height: 830px;}
 	</style>
 	
 	
@@ -33,7 +33,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu2956"><!-- group -->
+   <div class="clearfix grpelem" id="pu3412"><!-- group -->
+    <div class="browser_width" id="u3412-bw">
+     <div class="size_browser_width" id="u3412"><!-- custom html -->
+      
+	<div class="particle"></div>
+	
+     </div>
+    </div>
     <div class="browser_width" id="u2956-bw">
      <div id="u2956"><!-- simple frame --></div>
     </div>
@@ -73,23 +80,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </nav>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="82" data-content-below-spacer="134" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="pu3412"><!-- group -->
-    <div class="browser_width grpelem" id="u3412-bw">
-     <div class="size_browser_width" id="u3412"><!-- custom html -->
-      
-	<div class="particle"></div>
-	
-     </div>
-    </div>
+   <div class="grpelem" id="u8103"><!-- simple frame --></div>
+   <div class="verticalspacer" data-offset-top="301" data-content-above-spacer="912" data-content-below-spacer="72" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="pu3413"><!-- group -->
     <div class="clearfix grpelem" id="u3413"><!-- column -->
-     <img class="colelem" id="u3414-4" alt="Who are we" src="images/u3414-4.png?crc=4221381206" data-image-width="564"/><!-- rasterized frame -->
-     <img class="colelem" id="u3415-6" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis tellus elementum, semper lacus in, hendrerit ligula. Proin arcu quam, pretium vel massa at, aliquet maximus lacus. Quisque tristique purus sit amet ligula semper, ut sollicitudin ex porta. Duis a turpis maximus, egestas ante id, faucibus mauris. Vivamus porttitor tellus mauris, sit amet aliquet elit commodo at. Morbi in justo quam. Vivamus magna risus, iaculis eu lacinia ac, lobo " src="images/u3415-6.png?crc=3880425798" data-image-width="920"/><!-- rasterized frame -->
-     <img class="colelem" id="u3439-4" alt="What we do" src="images/u3439-4.png?crc=168314736" data-image-width="564"/><!-- rasterized frame -->
      <img class="colelem" id="u3440-9" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis tellus elementum, semper lacus in, hendrerit ligula. Proin arcu quam, pretium vel massa at, aliquet maximus lacus. mauris. Vivamus porttitor tellus mauris, sit amet aliquet elit commodo at. Morbi in justo quam. Vivamus magna risus, iaculis eu lacinia ac, lobo " src="images/u3440-9.png?crc=3922300533" data-image-width="920"/><!-- rasterized frame -->
      <div class="clearfix colelem" id="pu3416"><!-- group -->
       <div class="clip_frame grpelem" id="u3416"><!-- image -->
-       <img class="block" id="u3416_img" src="images/vnseeatt9w4-sven-scheuermeier.jpg?crc=237983376" alt="" data-heightwidthratio="0.5630434782608695" data-image-width="460" data-image-height="259"/>
+       <img class="block" id="u3416_img" src="images/vnseeatt9w4-sven-scheuermeier.jpg?crc=4213334525" alt="" data-heightwidthratio="0.5630434782608695" data-image-width="460" data-image-height="259"/>
       </div>
       <div class="clearfix grpelem" id="pu3419-4"><!-- column -->
        <img class="colelem" id="u3419-4" alt="We designed their brand" src="images/u3419-4.png?crc=408716958" data-image-width="259"/><!-- rasterized frame -->
@@ -97,6 +95,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
+    <img class="grpelem" id="u3414-4" alt="WHO WE ARE" src="images/u3414-4.png?crc=4047867407" data-image-width="816"/><!-- rasterized frame -->
+    <img class="grpelem" id="u3415-5" alt="AND WHAT WE DO " src="images/u3415-5.png?crc=3968049135" data-image-width="920"/><!-- rasterized frame -->
    </div>
   </div>
   <!-- JS includes -->
@@ -121,8 +121,6 @@ var muse_init=function(){require.config({baseUrl:""});require(["jquery","museuti
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.resizeHeight('.browser_width');/* resize height */
-Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.fullPage('#page');/* 100% height page */
