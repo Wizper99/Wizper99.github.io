@@ -1,63 +1,71 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="getdesignthinking.com" resolutions="1x" timestamp="1557342727457">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="getdesignthinking.com" resolutions="1x" timestamp="1557471889280">
   <folder name="css">
     <file name="site_global.css" crc="266610724"/>
-    <file name="index.css" crc="4083148706" ref="index"/>
-    <file name="services.css" crc="4222196597" ref="services"/>
-    <file name="contact-us.css" crc="4105758592" ref="contact-us"/>
-    <file name="about-us.css" crc="4139150565" ref="about-us"/>
-    <file name="brand.css" crc="3904077056" ref="brand"/>
-    <file name="editing.css" crc="116468191" ref="editing"/>
-    <file name="startup.css" crc="65113310" ref="startup"/>
-    <file name="social-media-posts.css" crc="3917350293" ref="social-media-posts"/>
-    <file name="website.css" crc="3884477500" ref="website"/>
-    <file name="form-logo.css" crc="4072501660" ref="form-logo"/>
+    <file name="index.css" crc="127589310" ref="index"/>
+    <file name="services.css" crc="4079042345" ref="services"/>
+    <file name="contact-us.css" crc="443937221" ref="contact-us"/>
+    <file name="about-us.css" crc="4215882827" ref="about-us"/>
+    <file name="brand.css" crc="3827068897" ref="brand"/>
+    <file name="editing.css" crc="3933188471" ref="editing"/>
+    <file name="startup.css" crc="470594930" ref="startup"/>
+    <file name="social-media-posts.css" crc="3908599752" ref="social-media-posts"/>
+    <file name="website.css" crc="4218806884" ref="website"/>
+    <file name="form-logo.css" crc="4064672011" ref="form-logo"/>
+    <file name="services-test.css" crc="4107087749" ref="services-test"/>
   </folder>
   <folder name="assets">
     <file name="easy-parallax.mulib" crc="495782990" seo="true" mt="1446454980000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="museutils.js" crc="340535759" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="whatinput.js" crc="86476730" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="museconfig.js" crc="4286661555" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="require.js" crc="7928878" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts"/>
-    <file name="webpro.js" crc="4059564322" ref="contact-us:services:form-logo:brand:editing:startup:website:social-media-posts:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="museutils.js" crc="340535759" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="whatinput.js" crc="86476730" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="require.js" crc="7928878" ref="index:services:contact-us:about-us:form-logo:brand:editing:startup:website:social-media-posts:services-test"/>
+    <file name="webpro.js" crc="4059564322" ref="contact-us:services:form-logo:brand:editing:startup:website:social-media-posts:index:services-test"/>
     <file name="form_check.php" crc="4020933626" ref="contact-us"/>
     <file name="form_throttle.php" crc="4259590256" ref="contact-us"/>
     <file name="form_process.php" crc="37464564" ref="contact-us"/>
     <file name="form-u3445.php" crc="4248277066" ref="contact-us"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="services:index"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="services:index"/>
-    <file name="touchswipe.js" crc="4075097462" ref="services:index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="services:index:services-test"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="services:index:services-test"/>
+    <file name="touchswipe.js" crc="4075097462" ref="services:index:services-test"/>
     <file name="form-u4675.php" crc="46829788" ref="form-logo"/>
     <file name="form-u5012.php" crc="4288367107" ref="brand"/>
     <file name="form-u5228.php" crc="4222361375" ref="editing"/>
     <file name="form-u5558.php" crc="278236462" ref="startup"/>
     <file name="form-u5615.php" crc="420377644" ref="website"/>
     <file name="form-u5817.php" crc="4209835633" ref="social-media-posts"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:services"/>
+    <file name="form-u10130.php" crc="4228127515" ref="form-logo"/>
+    <file name="form-u10524.php" crc="149488125" ref="brand"/>
+    <file name="form-u10875.php" crc="295742921" ref="editing"/>
+    <file name="form-u11250.php" crc="3922016963" ref="startup"/>
+    <file name="form-u11605.php" crc="451135912" ref="website"/>
+    <file name="form-u11969.php" crc="3941712760" ref="social-media-posts"/>
   </folder>
   <folder name="images">
     <file name="vnseeatt9w4-sven-scheuermeier.jpg" crc="4213334525" seo="true" ref="about-us">
       <caption webpage="index" alt=""/>
       <caption webpage="about-us" alt=""/>
     </file>
-    <file name="u3121-4.png" crc="4050172944" ref="services"/>
-    <file name="u3127-4.png" crc="3903621869" ref="services"/>
-    <file name="u3130.png" crc="14982648" ref="services"/>
-    <file name="u3130-r.png" crc="424965996" ref="services"/>
-    <file name="u3140.png" crc="4277088044" ref="services"/>
-    <file name="u3140-r.png" crc="117166689" ref="services"/>
-    <file name="u3150.png" crc="3798748578" ref="services"/>
-    <file name="u3150-r.png" crc="523950427" ref="services"/>
-    <file name="u3160.png" crc="28645784" ref="services"/>
-    <file name="u3160-r.png" crc="3834507028" ref="services"/>
-    <file name="u3170.png" crc="13527784" ref="services"/>
-    <file name="u3170-r.png" crc="4014100777" ref="services"/>
-    <file name="u3180.png" crc="4150858854" ref="services"/>
-    <file name="u3180-r.png" crc="164915023" ref="services"/>
+    <file name="u3121-4.png" crc="4050172944" ref="services-test"/>
+    <file name="u3127-4.png" crc="3903621869" ref="services-test"/>
+    <file name="u3130.png" crc="14982648" ref="services-test"/>
+    <file name="u3130-r.png" crc="424965996" ref="services-test"/>
+    <file name="u3140.png" crc="4277088044" ref="services-test"/>
+    <file name="u3140-r.png" crc="117166689" ref="services-test"/>
+    <file name="u3150.png" crc="3798748578" ref="services-test"/>
+    <file name="u3150-r.png" crc="523950427" ref="services-test"/>
+    <file name="u3160.png" crc="28645784" ref="services-test"/>
+    <file name="u3160-r.png" crc="3834507028" ref="services-test"/>
+    <file name="u3170.png" crc="13527784" ref="services-test"/>
+    <file name="u3170-r.png" crc="4014100777" ref="services-test"/>
+    <file name="u3180.png" crc="4150858854" ref="services-test"/>
+    <file name="u3180-r.png" crc="164915023" ref="services-test"/>
     <file name="u3646-4.png" crc="4149037622" ref="contact-us"/>
     <file name="u3634-4.png" crc="4261776806" ref="contact-us"/>
     <file name="u3640-4.png" crc="3768096197" ref="contact-us"/>
@@ -68,7 +76,7 @@
     <file name="u3440-9.png" crc="3922300533" ref="about-us"/>
     <file name="u3419-4.png" crc="408716958" ref="about-us"/>
     <file name="u3418-4.png" crc="4254983325" ref="about-us"/>
-    <file name="u4798-4.png" crc="470002455" ref="services"/>
+    <file name="u4798-4.png" crc="470002455" ref="services-test"/>
     <file name="u4499-4.png" crc="309866697" ref="form-logo"/>
     <file name="u4495-4.png" crc="166974204" ref="form-logo"/>
     <file name="u5070-4.png" crc="309866697" ref="brand"/>
@@ -81,15 +89,19 @@
     <file name="u5694-4.png" crc="166974204" ref="website"/>
     <file name="u5867-4.png" crc="309866697" ref="social-media-posts"/>
     <file name="u5896-4.png" crc="166974204" ref="social-media-posts"/>
-    <file name="header.png" crc="425014368" seo="true" ref="index">
+    <file name="header.png" crc="429504748" seo="true" ref="index:services">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
     </file>
-    <file name="wall.png" crc="399171487" seo="true" ref="index">
+    <file name="wall.png" crc="399171487" seo="true" ref="index:services">
       <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="icons8-quote-96.png" crc="3919494149" seo="true" ref="index">
+    <file name="blank.gif" crc="4208392903" ref="index:services"/>
+    <file name="icons8-quote-96.png" crc="188348872" seo="true" ref="index:services">
       <caption webpage="index" alt=""/>
+      <caption webpage="services" alt=""/>
     </file>
     <file name="profile-crop-u7945.jpg" crc="421357087" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -100,36 +112,87 @@
     <file name="images (2)-crop-u7939.jpg" crc="133542143" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u1416-5.png" crc="4081884967" ref="index"/>
-    <file name="u1419-4.png" crc="280148851" ref="index"/>
-    <file name="u8088-4.png" crc="3981304259" ref="index"/>
-    <file name="u8091.png" crc="205362858" ref="index"/>
-    <file name="u8091-r.png" crc="3980295457" ref="index"/>
-    <file name="u8094-4.png" crc="3872125890" ref="index"/>
-    <file name="u8097-4.png" crc="4115533453" ref="index"/>
-    <file name="u4983-10.png" crc="411769595" ref="services"/>
-    <file name="email-marketing-2362038_1280-crop-u7663.jpg" crc="4280014897" seo="true" ref="contact-us">
+    <file name="u1416-5.png" crc="4214563808" ref="index"/>
+    <file name="u1419-4.png" crc="4284864574" ref="index"/>
+    <file name="u8091.png" crc="471334434" ref="index"/>
+    <file name="u8091-r.png" crc="4264194787" ref="index"/>
+    <file name="u8094-4.png" crc="523727481" ref="index"/>
+    <file name="u8097-4.png" crc="530664722" ref="index"/>
+    <file name="u4983-10.png" crc="411769595" ref="services-test"/>
+    <file name="email-marketing-2362038_1280-crop-u7663.jpg" crc="3973018304" seo="true" ref="contact-us">
       <caption webpage="contact-us" alt=""/>
     </file>
     <file name="u3637-5.png" crc="4139495577" ref="contact-us"/>
     <file name="u3415-5.png" crc="3968049135" ref="about-us"/>
     <file name="default_wallpaper.png" crc="65621352" seo="true" ref="form-logo:brand:editing:startup:website:social-media-posts">
-      <caption webpage="website" alt=""/>
-      <caption webpage="form-logo" alt=""/>
-      <caption webpage="brand" alt=""/>
-      <caption webpage="social-media-posts" alt=""/>
+      <caption webpage="startup" alt=""/>
       <caption webpage="startup" alt=""/>
       <caption webpage="editing" alt=""/>
+      <caption webpage="editing" alt=""/>
+      <caption webpage="form-logo" alt=""/>
+      <caption webpage="form-logo" alt=""/>
+      <caption webpage="brand" alt=""/>
+      <caption webpage="brand" alt=""/>
+      <caption webpage="website" alt=""/>
+      <caption webpage="website" alt=""/>
+      <caption webpage="social-media-posts" alt=""/>
+      <caption webpage="social-media-posts" alt=""/>
     </file>
+    <file name="u8943-6.png" crc="499690987" ref="index"/>
+    <file name="u8088-8.png" crc="248491786" ref="index"/>
+    <file name="u9384-4.png" crc="4050172944" ref="services-test"/>
+    <file name="u9450-4.png" crc="3903621869" ref="services-test"/>
+    <file name="u9467-4.png" crc="470002455" ref="services-test"/>
+    <file name="u9433-10.png" crc="411769595" ref="services-test"/>
+    <file name="u9451.png" crc="4277088044" ref="services-test"/>
+    <file name="u9451-r.png" crc="117166689" ref="services-test"/>
+    <file name="u9385.png" crc="3798748578" ref="services-test"/>
+    <file name="u9385-r.png" crc="523950427" ref="services-test"/>
+    <file name="u9389.png" crc="28645784" ref="services-test"/>
+    <file name="u9389-r.png" crc="3834507028" ref="services-test"/>
+    <file name="u9462.png" crc="13527784" ref="services-test"/>
+    <file name="u9462-r.png" crc="4014100777" ref="services-test"/>
+    <file name="u9387.png" crc="4150858854" ref="services-test"/>
+    <file name="u9387-r.png" crc="164915023" ref="services-test"/>
+    <file name="u9464.png" crc="14982648" ref="services-test"/>
+    <file name="u9464-r.png" crc="424965996" ref="services-test"/>
+    <file name="u10217-4.png" crc="309866697" ref="form-logo"/>
+    <file name="u10187-4.png" crc="166974204" ref="form-logo"/>
+    <file name="u10523-4.png" crc="309866697" ref="brand"/>
+    <file name="u10510-4.png" crc="166974204" ref="brand"/>
+    <file name="u10933-4.png" crc="309866697" ref="editing"/>
+    <file name="u10945-4.png" crc="166974204" ref="editing"/>
+    <file name="u11231-4.png" crc="309866697" ref="startup"/>
+    <file name="u11222-4.png" crc="166974204" ref="startup"/>
+    <file name="u11664-4.png" crc="309866697" ref="website"/>
+    <file name="u11662-4.png" crc="166974204" ref="website"/>
+    <file name="u11960-4.png" crc="309866697" ref="social-media-posts"/>
+    <file name="u12010-4.png" crc="166974204" ref="social-media-posts"/>
+    <file name="profile-crop-u8809.jpg" crc="421357087" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="mattbrowncropped-20190313101509325-crop-u8820.jpg" crc="466188680" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="images (2)-crop-u8803.jpg" crc="133542143" seo="true" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="u8713-5.png" crc="4242842707" ref="services"/>
+    <file name="u8710-4.png" crc="3891301774" ref="services"/>
+    <file name="u8828.png" crc="205362858" ref="services"/>
+    <file name="u8828-r.png" crc="3980295457" ref="services"/>
+    <file name="u8714-4.png" crc="3872125890" ref="services"/>
+    <file name="u8715-4.png" crc="4115533453" ref="services"/>
   </folder>
-  <file name="index.html" crc="331520569" seo="true" mt="1557341960343" redirect="true"/>
-  <file name="services.html" crc="110009823" seo="true" mt="1557342681210" redirect="true"/>
-  <file name="contact-us.html" crc="389290518" seo="true" mt="1557342660639" redirect="true"/>
-  <file name="about-us.html" crc="4276178030" seo="true" mt="1557342669232" redirect="true"/>
-  <file name="form-logo.html" crc="4049037122" seo="true" mt="1557326568335" redirect="true"/>
-  <file name="brand.html" crc="3761317725" seo="true" mt="1557326372237" redirect="true"/>
-  <file name="editing.html" crc="4094732223" seo="true" mt="1557326372237" redirect="true"/>
-  <file name="startup.html" crc="3937695825" seo="true" mt="1557326372237" redirect="true"/>
-  <file name="website.html" crc="3923721185" seo="true" mt="1557326372237" redirect="true"/>
-  <file name="social-media-posts.html" crc="459701455" seo="true" mt="1557326372237" redirect="true"/>
+  <file name="index.html" crc="412958459" seo="true" mt="1557471833230" redirect="true"/>
+  <file name="services.html" crc="3869037840" seo="true" mt="1557471591971" redirect="true"/>
+  <file name="contact-us.html" crc="418730965" seo="true" mt="1557422941643" redirect="true"/>
+  <file name="about-us.html" crc="444898574" seo="true" mt="1557422941795" redirect="true"/>
+  <file name="form-logo.html" crc="200802341" seo="true" mt="1557422942077" redirect="true"/>
+  <file name="brand.html" crc="3868334785" seo="true" mt="1557422943097" redirect="true"/>
+  <file name="editing.html" crc="448008189" seo="true" mt="1557422944136" redirect="true"/>
+  <file name="startup.html" crc="130029721" seo="true" mt="1557422947084" redirect="true"/>
+  <file name="website.html" crc="152942079" seo="true" mt="1557422948344" redirect="true"/>
+  <file name="social-media-posts.html" crc="4063317327" seo="true" mt="1557422949507" redirect="true"/>
+  <file name="services-test.html" crc="263238818" seo="true" mt="1557422941344" redirect="true"/>
 </manifest>
